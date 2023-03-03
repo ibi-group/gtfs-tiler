@@ -1,14 +1,11 @@
 module.exports = {
   /* The list of GTFS Feed IDs to be read from the API */
   feeds: [
-    'Feed1',
-    'Feed2'
+    'otp'
   ],
 
-  /* The GTFS API endpoint to query. */
-  api: {
-    gtfs: 'https://localhost:9966/api/manager/graphql'
-  },
+  /* The OTP2 Server to request GTFS data from via graphql */ 
+  otp2Url: "URL_GOES_HERE", 
 
   /* The directory where the rendered tiles will be written */
   output: {
